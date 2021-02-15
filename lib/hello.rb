@@ -1,8 +1,8 @@
-def hello_t(list)
-  new_list = []
-  list.collect do |name|
+def hello_t(name)
+  list.each do |name|
+    puts "#{name}"
     name.upcase
-    puts "#{new_list}"
+    puts "#{name}"
   end
 end
 
