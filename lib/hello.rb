@@ -1,5 +1,5 @@
-def hello_t()
-  array.each do |name|
+def hello_t(list)
+  list.each do |name|
     puts "#{name}"
   end
 end
