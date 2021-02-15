@@ -3,7 +3,6 @@ def hello_t(name)
     puts "#{name}"
     yield(name)
     name.upcase
-  end
 end
 end
 # call your method here!
