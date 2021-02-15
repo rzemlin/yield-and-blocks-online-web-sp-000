@@ -1,13 +1,5 @@
-def hello_t(name)
-  i = 0
-  name.each do |name|
-    puts "#{name}"
-  while i < name.length
-    yield(name)
-    name.upcase
-    i += 1
+hello_t(["Tim", "Tom", "Jim"]) do |name|
+  if name.start_with?("T")
+    puts "Hi, #{name}"
+  end
 end
-end
-end
-# call your method here!
-
