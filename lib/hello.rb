@@ -6,6 +6,6 @@ def hello_t(name)
     puts "#{name}.upcase"
   end
 end
-
+end
 # call your method here!
 
