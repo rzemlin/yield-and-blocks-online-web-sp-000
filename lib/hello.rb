@@ -1,5 +1,5 @@
 def hello_t(name)
-  list.each do |name|
+  name.each do |name|
     puts "#{name}"
   end
   
