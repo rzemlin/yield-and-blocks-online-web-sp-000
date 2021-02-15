@@ -1,8 +1,7 @@
 def hello_t(name)
   name.each do |name|
     puts "#{name}"
-    yield
-    name.each do |name|
+    yield(name)
     name.upcase
   end
 end
