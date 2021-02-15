@@ -5,6 +5,7 @@ def hello_t(name)
   while i < name.length
     yield(name)
     name.upcase
+    i += 1
 end
 end
 # call your method here!
