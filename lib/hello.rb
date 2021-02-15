@@ -3,7 +3,7 @@ def hello_t(name)
     puts "#{name}"
     yield
     name.each do |name|
-    #{name}.upcase
+    name.upcase
   end
 end
 end
